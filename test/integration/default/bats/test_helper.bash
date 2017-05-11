@@ -6,6 +6,8 @@ codename() {
         case "$(< /etc/debian_version)" in
             6.*) echo 'squeeze';;
             7.*) echo 'wheezy';;
+            8.*) echo 'jessie';;
+            9.*) echo 'stretch';;
             *)   echo '???';;
         esac
     fi

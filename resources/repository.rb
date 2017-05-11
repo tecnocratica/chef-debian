@@ -22,9 +22,9 @@
 actions :add, :remove
 default_action :add
 
-attribute :repo_name, kind_of: String, name_attribute: true
-attribute :uri, kind_of: String
-attribute :distribution, kind_of: String,                  name_attribute: true
-attribute :components, kind_of: Array
-attribute :deb_src, kind_of: [TrueClass, FalseClass]
-attribute :pin_priority,                                   default: nil
+attribute :repo_name,    kind_of: String, name_attribute: true
+attribute :uri,          kind_of: String
+attribute :distribution, kind_of: String, name_attribute: true
+attribute :components,   kind_of: Array
+attribute :deb_src,      kind_of: [TrueClass, FalseClass]
+attribute :pin_priority, default: nil
