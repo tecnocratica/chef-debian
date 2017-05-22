@@ -1,5 +1,10 @@
-# 1.8.1 / _Not released yet_
+# 1.8.2 / Not released.
 
+# 1.8.1 / 2017-05-22
+
+- Removed limitation to apt < 3.0
+- Add support for debian jessie and strech
+- Add serverspec tests.
 
 # 1.8.0 / 2015-07-15
 
